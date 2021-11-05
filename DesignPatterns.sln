@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder Pattern", "builder_pattern\Builder Pattern.csproj", "{E88EEA52-6249-4003-A009-BC63292C234A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluentbuilder With Inheritance", "fluentbuilder_with_inheritance\Fluentbuilder With Inheritance.csproj", "{3A4E7085-7C9D-40CA-84C6-C0D6C562E776}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stepwise Builder", "Stepwise Builder\Stepwise Builder.csproj", "{5616D222-9B88-434C-88E6-678839DEAF10}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functional Builder", "Functional Builder\Functional Builder.csproj", "{6AEAA90F-EF91-4D2C-9A80-5B667B349647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faceted Builder", "Faceted Builder\Faceted Builder.csproj", "{FF32424F-6ECA-4D37-B20C-0BA18753705E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluentbuilder With Inheritance", "Fluentbuilder With Inheritance\Fluentbuilder With Inheritance.csproj", "{3A4E7085-7C9D-40CA-84C6-C0D6C562E776}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder Pattern", "Builder Pattern\Builder Pattern.csproj", "{E88EEA52-6249-4003-A009-BC63292C234A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E88EEA52-6249-4003-A009-BC63292C234A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E88EEA52-6249-4003-A009-BC63292C234A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E88EEA52-6249-4003-A009-BC63292C234A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E88EEA52-6249-4003-A009-BC63292C234A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3A4E7085-7C9D-40CA-84C6-C0D6C562E776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A4E7085-7C9D-40CA-84C6-C0D6C562E776}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A4E7085-7C9D-40CA-84C6-C0D6C562E776}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A4E7085-7C9D-40CA-84C6-C0D6C562E776}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5616D222-9B88-434C-88E6-678839DEAF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5616D222-9B88-434C-88E6-678839DEAF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5616D222-9B88-434C-88E6-678839DEAF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +27,18 @@ Global
 		{6AEAA90F-EF91-4D2C-9A80-5B667B349647}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AEAA90F-EF91-4D2C-9A80-5B667B349647}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AEAA90F-EF91-4D2C-9A80-5B667B349647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF32424F-6ECA-4D37-B20C-0BA18753705E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF32424F-6ECA-4D37-B20C-0BA18753705E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF32424F-6ECA-4D37-B20C-0BA18753705E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF32424F-6ECA-4D37-B20C-0BA18753705E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4E7085-7C9D-40CA-84C6-C0D6C562E776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4E7085-7C9D-40CA-84C6-C0D6C562E776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4E7085-7C9D-40CA-84C6-C0D6C562E776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4E7085-7C9D-40CA-84C6-C0D6C562E776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E88EEA52-6249-4003-A009-BC63292C234A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E88EEA52-6249-4003-A009-BC63292C234A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E88EEA52-6249-4003-A009-BC63292C234A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E88EEA52-6249-4003-A009-BC63292C234A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
