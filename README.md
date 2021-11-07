@@ -1,0 +1,3 @@
+# CSharp Design Patterns Course 
+## Dmitri Nesteruk
+## Source Codes as sample...
